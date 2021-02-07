@@ -2,6 +2,7 @@ package com.marcin.fibonacci.form;
 
 class FibonacciForm {
 
+    int n;
     public static void fibonacciForm(int n){
         int a = 0;
         int b = 1;
@@ -16,9 +17,7 @@ class FibonacciForm {
 
     public static void main(String[] args) {
 
-        int n = 444;
-
-        fibonacciForm(n);
+        fibonacciForm(444);
 
 
     }
